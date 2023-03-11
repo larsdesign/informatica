@@ -1,0 +1,104 @@
+#inhoud
+{ 
+width: 800px;
+padding: 10px;
+margin: 0 auto;
+background-color: #faebd7;
+text-align: left;
+border-left: 1px solid black; 
+border-right: 1px solid black;
+}
+html{
+height: 100%
+}
+body{
+height: 100%;
+ margin: 0 auto;
+ text-align: center;
+ background-color: #cc6666;
+ background-image: url(img/bnew12.jpg);
+ background-attachment: fixed;
+ }
+ #menu
+{
+   display:table;
+	 
+}
+
+#menu ul
+{
+ margin: 0px;
+ padding: 0px;
+ list-style-type: none;
+}
+#menu a
+{
+ font-family: Calibri, Tahoma, Verdana;
+ display: block;
+ width: 178px;
+ padding: 5px;
+ color: white;
+ border: 2px outset #a9a9a9;
+ background-color: #ff0033;
+ text-decoration: none;
+ text-align: center;
+}
+#menu a:hover
+{
+ background-color: #ff6666;
+ border: 2px inset #a9a9a9;
+ font-weight: bold;
+}
+#menu li
+{
+ float: left;
+ margin-right: 0.5em;
+} 
+h1{ background-color: white;
+padding: 10px;
+border-top: 1px dotted black;
+border-bottom: 1px dotted black;
+text-align: center;
+color: black;
+font-family: Arial;
+}
+h2{
+font-family: arial;
+border-left: solid 8px maroon;
+padding: 10px;
+}
+p{
+text-align: justify;
+}
+#lol img{
+float: right;
+margin-left: 20px;
+margin-right:10px;
+margin-top:10px;
+margin-bottom: 10px;
+}
+a{
+color: blue;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover{
+color: red;
+background-color: yellow;
+text-decoration: underline;
+}
+a:visited{
+color:purple;
+text-decoration: none;
+}
+a:active{
+color:#99cccc;
+text-decoration: none;
+}
+em{
+color: green;
+text-decoration: underline;
+font-style:italic;
+}
+#aap ul{
+list-style-image: url(img/BD15061_.gif)}
